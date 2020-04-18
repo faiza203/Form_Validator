@@ -12,17 +12,22 @@
         <h2>Register With Us</h2>
         <div class="secMain">
           <label for="username">Username</label>
-          <input type="text" id="username" placeholder="Enter username" />
+          <input
+            type="text"
+            id="username"
+            placeholder="Enter username"
+            required
+          />
           <small>Message Error</small>
         </div>
         <div class="secMain">
           <label for="email">Email</label>
-          <input type="text" id="email" placeholder="Enter email" />
+          <input type="text" id="email" placeholder="Enter email" required />
           <small>Message Error</small>
         </div>
         <div class="secMain">
           <label for="password">Password</label>
-          <input type="text" id="password" placeholder="Enter password" />
+          <input type="text" id="password" placeholder="Enter password" required />
           <small>Message Error</small>
         </div>
         <div class="secMain">
@@ -31,7 +36,8 @@
             type="text"
             id="password2"
             placeholder="Enter password again"
-          />
+            required
+            />
           <small>Message Error</small>
         </div>
         <button id="submit">Submit</button>
